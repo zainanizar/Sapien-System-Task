@@ -11,45 +11,46 @@ export default function Sidebar() {
             </div>
             <h3 className="sidebarTitle">Zaina Nizar</h3>
             <h5 className="sidebarSubTitle">Fitness & Nutrition Coach</h5>
+           <div className="sideline" /> 
             <ul className="sidebarList">
             <li className="sidebarlistItem">
-            <HomeOutlined />
+            <HomeOutlined className="sidebarIcon" />
             Home
             </li>
             <li className="sidebarlistItem">
-            <ChatBubbleOutlineOutlined />
+            <ChatBubbleOutlineOutlined className="sidebarIcon" />
             Chats
             </li>
             <li className="sidebarlistItem">
-            <CalendarTodayOutlined />
+            <CalendarTodayOutlined className="sidebarIcon"/>
             Schedule
             </li>
             <li className="sidebarlistItem">
-            < PersonOutlineOutlined/>
+            < PersonOutlineOutlined className="sidebarIcon"/>
             Clients
             </li>
             <li className="sidebarlistItem">
-            < LibraryBooksOutlined/>
+            < LibraryBooksOutlined className="sidebarIcon"/>
             Bookings
             </li>
             <li className="sidebarlistItem">
-            < ListAltOutlined/>
+            < ListAltOutlined className="sidebarIcon"/>
             Programs
             </li>
             <li className="sidebarlistItem">
-            < CheckBox/>
+            < CheckBox className="sidebarIcon"/>
             Packages
             </li>
             <li className="sidebarlistItem">
-            <Apartment/>
+            <Apartment className="sidebarIcon"/>
             Resources
             </li>
             <li className="sidebarlistItem">
-            < AccountBalanceWallet/>
+            < AccountBalanceWallet className="sidebarIcon"/>
             Finance
             </li>
             <li className="sidebarlistItem">
-            < Settings/>
+            < Settings className="sidebarIcon"/>
             Settings
             </li>
             </ul>
