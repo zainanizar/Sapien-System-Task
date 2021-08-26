@@ -14,21 +14,21 @@
 }
 
 .PageType{
-    width:300px;
+    width:60%;
     Display: block;
     Float: left;
     padding:15px 25px;
 }
 
 .Page1{
-    Width: 100px;
+    Width: 20%;
     Text-align: left;
     Float: left;
     Display: block;
     }
 
 .Page2{
-    Width: 100px;
+    Width: 20%;
     Text-align: left;
     Float: left;
     Display: block;
@@ -38,7 +38,7 @@
 
 
 .Page3{
-Width: 100px;
+Width:20%;
 Text-align: right;
 Float: left;
 Display: block;
@@ -54,22 +54,78 @@ color: #bbb8b8;
     background-color: #aaa9a9;
 }
 
-.Nutrition{
-    width:500px;
-    Display: block;
-    Float: left;
-    padding:15px 700px;
-}
 
-.Package{
-    width:250px;
-    Display: block;
-    Float: left;
-}
+.column {
+    float: right;
+    width: 20%;
+    
+  }
 
-.Program{
-    width:250px;
-    Display: block;
-    Float: right; 
-}
 
+  td,
+  th {
+      
+      padding: 10px 10px;
+  }
+  
+  td {
+      text-align: center;
+  }
+  
+  tr{
+    border: 1px solid black;
+    padding:5px;
+  }
+
+  
+  th[scope="col"] {
+     height: 20px;
+     font-size:15px;
+    font-weight:100px;
+    
+  }
+  
+  th[scope="row"] {
+    height: 50px;
+    font-size:12px;
+    font-weight:50px;
+    border-bottom: 1pt solid black;
+    border-top: 1pt solid black;
+    }
+  
+  caption {
+      padding: 10px;
+      caption-side: bottom;
+  }
+  
+  table {
+      width:100%;
+      border-collapse: separate;
+      border-spacing: 0 15px;
+      letter-spacing: 1px;
+      font-size: .8rem;
+  }
+  
+  .btn {
+    border: white;
+    background-color: green;
+    padding: 6px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 8px;
+  }
+
+  .inactive {
+    border: white;
+    background-color: rgb(221, 3, 3);
+    padding: 6px 16px;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    display: inline-block;  
+    border-radius: 8px;
+  }
